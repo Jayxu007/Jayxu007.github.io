@@ -1,0 +1,8 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Disallow: /404.html
+
+Sitemap: https://jayuspider.cn/sitemap.xml
+Sitemap: https://jayuspider.cn/baidusitemap.xml
