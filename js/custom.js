@@ -255,3 +255,7 @@ const observerConfig = {
 };
 
 observer.observe(document, observerConfig); // 开始观察document节点的变化
+
+
+
+
