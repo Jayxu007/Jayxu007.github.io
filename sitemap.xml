@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jayuspider.cn/71dd4825c55a/</loc>
+    
+    <lastmod>2023-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jayuspider.cn/about/</loc>
     
     <lastmod>2023-12-24</lastmod>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://jayuspider.cn/</loc>
-    <lastmod>2023-12-24</lastmod>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,25 +75,53 @@
   
   <url>
     <loc>https://jayuspider.cn/tags/%E8%87%AA%E7%84%B6/</loc>
-    <lastmod>2023-12-24</lastmod>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/%E7%BE%8E%E6%99%AF/</loc>
-    <lastmod>2023-12-24</lastmod>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/%E5%AE%81%E9%9D%99/</loc>
-    <lastmod>2023-12-24</lastmod>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/tags/python/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/tags/%E7%88%AC%E8%99%AB/</loc>
+    <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
