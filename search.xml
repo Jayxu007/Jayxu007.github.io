@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>python基础——操作列表</title>
+      <link href="/e9cf280d8081/"/>
+      <url>/e9cf280d8081/</url>
+      
+        <content type="html"><![CDATA[<h2 id="遍历整个列表"><a href="#遍历整个列表" class="headerlink" title="遍历整个列表"></a>遍历整个列表</h2><p>你经常需要遍历列表的所有元素，对每个元素执行相同的操作。例如，在游戏中，可能需要将每个界面元素平移相同的距离；<br>对于包含数的列表，可能需要对每个元素执行相同的统计运算；在网站中，可能需要显示文章列表中的每个标题。<br>如果需要对列表中的每个元素都执行相同的操作，可使用 Python 中的 for 循环。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">list_name = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="comment"># 遍历整个列表</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> list_name:</span><br><span class="line">    <span class="comment"># 这里的 item 就是列表中的每个元素</span></span><br><span class="line">    <span class="built_in">print</span>(item)</span><br></pre></td></tr></table></figure><h2 id="创建数值列表"><a href="#创建数值列表" class="headerlink" title="创建数值列表"></a>创建数值列表</h2><p>Python 函数 range（）让你能够轻松地生成一系列的数。例如，可以像下面这样使用 range（）函数来打印 一系列的数：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">    <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure><h2 id="列表推导式"><a href="#列表推导式" class="headerlink" title="列表推导式"></a>列表推导式</h2><p>列表推导式是一种简洁的写法，它允许你用一行代码来生成一个列表。<br>列表推导式的一般形式是：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[表达式 for 元素 in 序列 if 条件]</span><br></pre></td></tr></table></figure><p>例如，要生成一个列表，其中包含从 1 到 10 的每个数的平方，你可以使用以下列表推导式：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">squares = [i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br></pre></td></tr></table></figure><h2 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h2><p>切片操作允许你从列表中提取部分元素。</p><p>例如，要提取列表中的前 5 个元素，你可以使用以下代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">squares = [i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br><span class="line"><span class="built_in">print</span>(squares[:<span class="number">5</span>])</span><br></pre></td></tr></table></figure><h2 id="列表方法"><a href="#列表方法" class="headerlink" title="列表方法"></a>列表方法</h2><p>列表方法是 Python 中用来操作列表的函数。</p><p>例如，要将列表中的每个元素都加 1，你可以使用以下代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">squares = [i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br><span class="line">squares = [i+<span class="number">1</span> <span class="keyword">for</span> i <span class="keyword">in</span> squares]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br></pre></td></tr></table></figure><h2 id="复制列表"><a href="#复制列表" class="headerlink" title="复制列表"></a>复制列表</h2><p>你可以使用列表的复制方法来复制列表。</p><p>例如，要复制列表 squares，你可以使用以下代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">squares = [i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br><span class="line">squares = squares[:]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br></pre></td></tr></table></figure><h2 id="列表排序"><a href="#列表排序" class="headerlink" title="列表排序"></a>列表排序</h2><p>你可以使用列表的 sort() 方法来对列表进行排序。</p><p>例如，要对列表 squares 进行排序，你可以使用以下代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">squares = [i**<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br><span class="line">squares.sort()</span><br><span class="line"><span class="built_in">print</span>(squares)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> python基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 列表 </tag>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python基础——列表02</title>
       <link href="/c222d7a2ffba/"/>
       <url>/c222d7a2ffba/</url>
