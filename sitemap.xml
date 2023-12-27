@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jayuspider.cn/5e3cdc138117/</loc>
+    
+    <lastmod>2023-12-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jayuspider.cn/e9cf280d8081/</loc>
     
     <lastmod>2023-12-27</lastmod>
@@ -83,7 +92,7 @@
 
   
   <url>
-    <loc>https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://jayuspider.cn/tags/python/</loc>
     <lastmod>2023-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -97,7 +106,21 @@
   </url>
   
   <url>
-    <loc>https://jayuspider.cn/tags/python/</loc>
+    <loc>https://jayuspider.cn/tags/javascript%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/tags/javascript/</loc>
+    <lastmod>2023-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -114,6 +137,13 @@
   
   <url>
     <loc>https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jayuspider.cn/categories/javascript%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

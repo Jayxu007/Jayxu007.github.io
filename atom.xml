@@ -6,7 +6,7 @@
   <link href="https://jayuspider.cn/atom.xml" rel="self"/>
   
   <link href="https://jayuspider.cn/"/>
-  <updated>2023-12-27T07:43:54.917Z</updated>
+  <updated>2023-12-27T07:56:53.040Z</updated>
   <id>https://jayuspider.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>javascript基础——变量</title>
+    <link href="https://jayuspider.cn/5e3cdc138117/"/>
+    <id>https://jayuspider.cn/5e3cdc138117/</id>
+    <published>2023-12-27T07:51:10.129Z</published>
+    <updated>2023-12-27T07:56:53.040Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>变量是程序中最基本的存储数据的方式，变量的定义和使用都非常简单。</p><h3 id="变量定义"><a href="#变量定义" class="headerlink" title="变量定义"></a>变量定义</h3><p>变量的定义可以使用var关键字来定义的，变量的定义必须在使用之前，否则会报错。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name;</span><br></pre></td></tr></table></figure><h3 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a>变量赋值</h3><p>变量的赋值是使用等号（&#x3D;）来进行的，等号的左边是变量名，等号的右边是变量的值。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&#x27;tom&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="变量的类型"><a href="#变量的类型" class="headerlink" title="变量的类型"></a>变量的类型</h3><p>变量的类型可以通过typeof关键字来判断，变量的类型可以是：undefined、boolean、number、string、object、function、symbol。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typeof</span> name; <span class="comment">// &#x27;string&#x27;</span></span><br></pre></td></tr></table></figure><h3 id="变量的命名规则"><a href="#变量的命名规则" class="headerlink" title="变量的命名规则"></a>变量的命名规则</h3><p>变量的命名规则必须以字母开头，可以使用字母、数字、下划线（_）和中划线（-）来命名，但是不能使用保留字，变量名不能重复，变量名不能以<br>数字开头。</p><h3 id="变量的作用域"><a href="#变量的作用域" class="headerlink" title="变量的作用域"></a>变量的作用域</h3><p>变量的作用域是指变量的可见范围，在javascript中，变量的作用域分为全局作用域和局部作用域。</p><p>全局作用域：在函数外定义的变量，在全局作用域中，变量可以被任何函数访问。</p><p>局部作用域：在函数中定义的变量，在局部作用域中，变量只能被该函数访问。</p><h3 id="变量的提升"><a href="#变量的提升" class="headerlink" title="变量的提升"></a>变量的提升</h3><p>在javascript中，变量的提升是指，变量可以在声明之前使用，即使声明在函数的顶部，也会提升到函数的顶部。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(name);</span><br><span class="line">    <span class="keyword">var</span> name = <span class="string">&#x27;tom&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">test</span>(); <span class="comment">// tom</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;变量&quot;&gt;&lt;a href=&quot;#变量&quot; class=&quot;headerlink&quot; title=&quot;变量&quot;&gt;&lt;/a&gt;变量&lt;/h2&gt;&lt;p&gt;变量是程序中最基本的存储数据的方式，变量的定义和使用都非常简单。&lt;/p&gt;
+&lt;h3 id=&quot;变量定义&quot;&gt;&lt;a href=&quot;#变量定义&quot; cla</summary>
+      
+    
+    
+    
+    <category term="javascript基础" scheme="https://jayuspider.cn/categories/javascript%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="javascript基础" scheme="https://jayuspider.cn/tags/javascript%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="javascript" scheme="https://jayuspider.cn/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>python基础——操作列表</title>
@@ -36,9 +63,9 @@
     <category term="python基础" scheme="https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="列表" scheme="https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/"/>
-    
     <category term="python" scheme="https://jayuspider.cn/tags/python/"/>
+    
+    <category term="列表" scheme="https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/"/>
     
   </entry>
   
@@ -62,9 +89,9 @@
     <category term="python基础" scheme="https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="列表" scheme="https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/"/>
-    
     <category term="python" scheme="https://jayuspider.cn/tags/python/"/>
+    
+    <category term="列表" scheme="https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/"/>
     
   </entry>
   
@@ -88,9 +115,9 @@
     <category term="python基础" scheme="https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="python基础" scheme="https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="列表" scheme="https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/"/>
+    
+    <category term="python基础" scheme="https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
@@ -116,9 +143,9 @@
     <category term="python基础" scheme="https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="python基础" scheme="https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="python" scheme="https://jayuspider.cn/tags/python/"/>
+    
+    <category term="python基础" scheme="https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/"/>
     
     <category term="爬虫" scheme="https://jayuspider.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
