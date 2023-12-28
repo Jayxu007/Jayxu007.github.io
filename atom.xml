@@ -6,7 +6,7 @@
   <link href="https://jayuspider.cn/atom.xml" rel="self"/>
   
   <link href="https://jayuspider.cn/"/>
-  <updated>2023-12-28T05:02:38.075Z</updated>
+  <updated>2023-12-28T05:09:46.929Z</updated>
   <id>https://jayuspider.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python基础--元组</title>
+    <link href="https://jayuspider.cn/8a8cb5b66063/"/>
+    <id>https://jayuspider.cn/8a8cb5b66063/</id>
+    <published>2023-12-28T05:04:48.048Z</published>
+    <updated>2023-12-28T05:09:46.929Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h2><p>元组是Python中一种不可变序列，元组用小括号括起来，元素之间用逗号隔开。</p><p>元组的创建和使用</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的创建</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">tuple2 = <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span></span><br><span class="line">tuple3 = <span class="built_in">tuple</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 元组的使用</span></span><br><span class="line"><span class="built_in">print</span>(tuple1[<span class="number">0</span>])</span><br><span class="line"><span class="built_in">print</span>(tuple2[<span class="number">0</span>])</span><br><span class="line"><span class="built_in">print</span>(tuple3[<span class="number">0</span>])</span><br></pre></td></tr></table></figure><h2 id="元组的运算"><a href="#元组的运算" class="headerlink" title="元组的运算"></a>元组的运算</h2><p>元组的运算和列表的运算一样，但是元组不能修改，不能添加元素，不能删除元素，只能使用索引访问元素，不能使用切片操作。</p><h2 id="元组的长度"><a href="#元组的长度" class="headerlink" title="元组的长度"></a>元组的长度</h2><p>元组的长度可以通过<code>len()</code>函数来获取。</p><h2 id="元组的遍历"><a href="#元组的遍历" class="headerlink" title="元组的遍历"></a>元组的遍历</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 遍历元组</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> tuple1:</span><br><span class="line">    <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure><h2 id="元组的拼接"><a href="#元组的拼接" class="headerlink" title="元组的拼接"></a>元组的拼接</h2><p>元组可以通过<code>+</code>运算符来拼接，拼接的结果是一个新的元组。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的拼接</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">tuple2 = (<span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>)</span><br><span class="line">tuple3 = tuple1 + tuple2</span><br><span class="line"><span class="built_in">print</span>(tuple3)</span><br></pre></td></tr></table></figure><h2 id="元组的重复"><a href="#元组的重复" class="headerlink" title="元组的重复"></a>元组的重复</h2><p>元组可以通过<code>*</code>运算符来重复，重复的结果是一个新的元组。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的重复</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">tuple2 = tuple1 * <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(tuple2)</span><br></pre></td></tr></table></figure><h2 id="元组的比较"><a href="#元组的比较" class="headerlink" title="元组的比较"></a>元组的比较</h2><p>元组可以通过<code>==</code>运算符来比较，比较的结果是一个布尔值。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的比较</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">tuple2 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line"><span class="built_in">print</span>(tuple1 == tuple2)</span><br></pre></td></tr></table></figure><h2 id="元组的排序"><a href="#元组的排序" class="headerlink" title="元组的排序"></a>元组的排序</h2><p>元组可以通过<code>sorted()</code>函数来排序，排序的结果是一个新的元组。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的排序</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">tuple2 = <span class="built_in">sorted</span>(tuple1)</span><br><span class="line"><span class="built_in">print</span>(tuple2)</span><br></pre></td></tr></table></figure><h2 id="元组的索引"><a href="#元组的索引" class="headerlink" title="元组的索引"></a>元组的索引</h2><p>元组可以通过索引来访问元素，索引从0开始。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元组的索引</span></span><br><span class="line">tuple1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line"><span class="built_in">print</span>(tuple1[<span class="number">0</span>])</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;元组&quot;&gt;&lt;a href=&quot;#元组&quot; class=&quot;headerlink&quot; title=&quot;元组&quot;&gt;&lt;/a&gt;元组&lt;/h2&gt;&lt;p&gt;元组是Python中一种不可变序列，元组用小括号括起来，元素之间用逗号隔开。&lt;/p&gt;
+&lt;p&gt;元组的创建和使用&lt;/p&gt;
+&lt;figure cla</summary>
+      
+    
+    
+    
+    <category term="python基础" scheme="https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="python基础" scheme="https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="python" scheme="https://jayuspider.cn/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>javascript基础--数据类型</title>
