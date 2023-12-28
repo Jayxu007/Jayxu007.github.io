@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jayuspider.cn/f7befe8eb5ce/</loc>
+    
+    <lastmod>2023-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jayuspider.cn/5e3cdc138117/</loc>
     
     <lastmod>2023-12-27</lastmod>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://jayuspider.cn/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,42 +102,42 @@
   
   <url>
     <loc>https://jayuspider.cn/tags/javascript%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/javascript/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/python%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/%E5%88%97%E8%A1%A8/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/python/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -137,14 +146,14 @@
   
   <url>
     <loc>https://jayuspider.cn/categories/javascript%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jayuspider.cn/categories/python%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-12-27</lastmod>
+    <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
