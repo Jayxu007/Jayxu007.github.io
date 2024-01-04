@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>python基础--字典</title>
+      <link href="/844aec96d5cc/"/>
+      <url>/844aec96d5cc/</url>
+      
+        <content type="html"><![CDATA[<h1 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h1><h2 id="字典的定义"><a href="#字典的定义" class="headerlink" title="字典的定义"></a>字典的定义</h2><p>字典是一种映射类型，它使用键-值（key-value）存储，具有以下特点：</p><ul><li>字典中的键是唯一的，但值可以重复。</li><li>字典是一种无序的集合，且字典中的元素是按键自动排序的。</li><li>字典中的键可以是任意类型，但通常使用字符串或数值类型。</li><li>字典中的值可以是任意类型，通常使用各种Python对象。</li><li>字典是可变的，也就是说，我们可以对字典进行增加、删除和修改操作。</li></ul><h2 id="字典的使用"><a href="#字典的使用" class="headerlink" title="字典的使用"></a>字典的使用</h2><h3 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建一个空字典</span></span><br><span class="line">dict1 = &#123;&#125;</span><br><span class="line"><span class="built_in">print</span>(dict1)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个字典，并初始化</span></span><br><span class="line">dict2 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(dict2)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个字典，并同时初始化</span></span><br><span class="line">dict3 = <span class="built_in">dict</span>(name=<span class="string">&#x27;张三&#x27;</span>, age=<span class="number">18</span>)</span><br><span class="line"><span class="built_in">print</span>(dict3)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个字典，并同时初始化</span></span><br><span class="line">dict4 = <span class="built_in">dict</span>([(<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;张三&#x27;</span>), ())</span><br><span class="line"><span class="built_in">print</span>(dict4)</span><br></pre></td></tr></table></figure><h3 id="字典的访问"><a href="#字典的访问" class="headerlink" title="字典的访问"></a>字典的访问</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 访问字典中的元素</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(dict1[<span class="string">&#x27;name&#x27;</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改字典中的元素</span></span><br><span class="line">dict1[<span class="string">&#x27;name&#x27;</span>] = <span class="string">&#x27;李四&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(dict1)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除字典中的元素</span></span><br><span class="line"><span class="keyword">del</span> dict1[<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line"><span class="built_in">print</span>(dict1)</span><br></pre></td></tr></table></figure><h3 id="字典的遍历"><a href="#字典的遍历" class="headerlink" title="字典的遍历"></a>字典的遍历</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 遍历字典中的元素</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="keyword">for</span> key <span class="keyword">in</span> dict1:</span><br><span class="line">    <span class="built_in">print</span>(key, <span class="string">&#x27;:&#x27;</span>, dict1[key])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历字典中的元素，并同时获取键和值</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="keyword">for</span> key, value <span class="keyword">in</span> dict1.items():</span><br><span class="line">    <span class="built_in">print</span>(key, <span class="string">&#x27;:&#x27;</span>, value)</span><br></pre></td></tr></table></figure><h3 id="字典的修改"><a href="#字典的修改" class="headerlink" title="字典的修改"></a>字典的修改</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 字典的修改</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line">dict1[<span class="string">&#x27;name&#x27;</span>] = <span class="string">&#x27;李四&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(dict1)</span><br></pre></td></tr></table></figure><h3 id="使用-get-来访问值"><a href="#使用-get-来访问值" class="headerlink" title="使用 get() 来访问值"></a>使用 get() 来访问值</h3><p>字典的 get() 方法返回指定键的值，如果键不存在，则返回默认值。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 get() 来访问值</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(dict1.get(<span class="string">&#x27;name&#x27;</span>))</span><br><span class="line"><span class="built_in">print</span>(dict1.get(<span class="string">&#x27;sex&#x27;</span>))</span><br></pre></td></tr></table></figure><h3 id="使用-in-来判断键是否存在"><a href="#使用-in-来判断键是否存在" class="headerlink" title="使用 in 来判断键是否存在"></a>使用 in 来判断键是否存在</h3><p>字典的 in 运算符用来判断键是否存在于字典中。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 in 来判断键是否存在</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;name&#x27;</span> <span class="keyword">in</span> dict1)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;sex&#x27;</span> <span class="keyword">in</span> dict1)</span><br></pre></td></tr></table></figure><h3 id="使用-len-来获取字典的长度"><a href="#使用-len-来获取字典的长度" class="headerlink" title="使用 len() 来获取字典的长度"></a>使用 len() 来获取字典的长度</h3><p>字典的 len() 方法返回字典中键的个数。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 len() 来获取字典的长度</span></span><br><span class="line">dict1 = &#123;<span class="string">&#x27;name&#x27;</span>: <span class="string">&#x27;张三&#x27;</span>, <span class="string">&#x27;age&#x27;</span>: <span class="number">18</span>&#125;   </span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">len</span>(dict1))</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> python基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python基础 </tag>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python基础--循环</title>
       <link href="/b6c77e26207a/"/>
       <url>/b6c77e26207a/</url>
@@ -182,9 +209,9 @@
       
         <tags>
             
-            <tag> 列表 </tag>
-            
             <tag> python </tag>
+            
+            <tag> 列表 </tag>
             
         </tags>
       
@@ -209,9 +236,9 @@
       
         <tags>
             
-            <tag> 列表 </tag>
-            
             <tag> python </tag>
+            
+            <tag> 列表 </tag>
             
         </tags>
       
